@@ -15,75 +15,75 @@
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans selection:bg-red-600 selection:text-white select-none" oncontextmenu="return false;">
 
-    <!-- Navbar -->
-    <nav class="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
-        <div class="flex items-center space-x-3">
-            <span class="bg-red-600 text-white font-black px-3 py-1.5 rounded-lg tracking-wider text-lg">DK</span>
-            <span class="text-xl font-bold tracking-wide">GAMERS <span class="text-red-500 text-xs uppercase px-2 py-0.5 bg-red-950/50 border border-red-800 rounded ml-2">Co-op Hub</span></span>
+    <!-- Navbar (Fully Responsive) -->
+    <nav class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50 px-4 md:px-8 py-3.5 flex justify-between items-center">
+        <div class="flex items-center space-x-2.5">
+            <span class="bg-red-600 text-white font-black px-2.5 py-1 rounded-lg tracking-wider text-base md:text-lg">DK</span>
+            <span class="text-lg md:text-xl font-bold tracking-wide">GAMERS <span class="hidden sm:inline-block text-red-500 text-xs uppercase px-2 py-0.5 bg-red-950/50 border border-red-800 rounded ml-1">Co-op Hub</span></span>
         </div>
-        <!-- Oyage WhatsApp Group Link eka methana thiyenawa -->
-        <a href="https://chat.whatsapp.com/FznneucGR22EVXZgaqaz0Q" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-xl text-sm font-semibold transition flex items-center space-x-2 shadow-lg shadow-emerald-600/20">
-            <i class="fa-brands fa-whatsapp text-lg"></i>
+        <!-- WhatsApp Button -->
+        <a href="https://chat.whatsapp.com/FznneucGR22EVXZgaqaz0Q" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white px-3.5 py-2 rounded-xl text-xs md:text-sm font-semibold transition flex items-center space-x-2 shadow-lg shadow-emerald-600/20">
+            <i class="fa-brands fa-whatsapp text-base md:text-lg"></i>
             <span>Join WhatsApp</span>
         </a>
     </nav>
 
-    <!-- Main Hero / Game Detail Section -->
-    <main class="max-w-5xl mx-auto px-6 py-8">
+    <!-- Main Container -->
+    <main class="max-w-5xl mx-auto px-4 md:px-6 py-6 md:py-8">
         
         <!-- Game Title Banner & Modern Categories -->
-        <div class="mb-8">
-            <div class="flex flex-wrap gap-2 mb-3">
-                <span class="bg-red-600/20 border border-red-600/50 text-red-400 text-xs font-bold px-3 py-1 rounded-full"><i class="fa-solid fa-fire mr-1"></i> Action</span>
-                <span class="bg-blue-600/20 border border-blue-600/50 text-blue-400 text-xs font-bold px-3 py-1 rounded-full"><i class="fa-solid fa-users mr-1"></i> Co-op / Multiplayer</span>
-                <span class="bg-purple-600/20 border border-purple-600/50 text-purple-400 text-xs font-bold px-3 py-1 rounded-full"><i class="fa-solid fa-skull mr-1"></i> Shooter</span>
-                <span class="bg-emerald-600/20 border border-emerald-600/50 text-emerald-400 text-xs font-bold px-3 py-1 rounded-full"><i class="fa-solid fa-gamepad mr-1"></i> LAN Ready</span>
+        <div class="mb-6 md:mb-8">
+            <div class="flex flex-wrap gap-1.5 md:gap-2 mb-3">
+                <span class="bg-red-600/20 border border-red-600/50 text-red-400 text-[11px] md:text-xs font-bold px-2.5 py-1 rounded-full"><i class="fa-solid fa-fire mr-1"></i> Action</span>
+                <span class="bg-blue-600/20 border border-blue-600/50 text-blue-400 text-[11px] md:text-xs font-bold px-2.5 py-1 rounded-full"><i class="fa-solid fa-users mr-1"></i> Co-op / Multiplayer</span>
+                <span class="bg-purple-600/20 border border-purple-600/50 text-purple-400 text-[11px] md:text-xs font-bold px-2.5 py-1 rounded-full"><i class="fa-solid fa-skull mr-1"></i> Shooter</span>
+                <span class="bg-emerald-600/20 border border-emerald-600/50 text-emerald-400 text-[11px] md:text-xs font-bold px-2.5 py-1 rounded-full"><i class="fa-solid fa-gamepad mr-1"></i> LAN Ready</span>
             </div>
-            <h1 class="text-3xl md:text-5xl font-black tracking-tight">Call of Duty: World at War</h1>
-            <p class="text-slate-400 text-sm mt-2">Experience classic cooperative multiplayer campaigns and Nazi Zombies with friends.</p>
+            <h1 class="text-2xl sm:text-3xl md:text-5xl font-black tracking-tight">Call of Duty: World at War</h1>
+            <p class="text-slate-400 text-xs md:text-sm mt-1.5 md:mt-2">Experience classic cooperative multiplayer campaigns and Nazi Zombies with friends.</p>
         </div>
 
-        <!-- Screenshots / Gallery Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
-            <div class="md:col-span-2 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl h-80">
-                <img src="image1.jpg" alt="Game Screenshot 3" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+        <!-- Screenshots / Gallery Grid (Stacked on Mobile, Grid on PC) -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 mb-8 md:mb-10">
+            <div class="md:col-span-2 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl h-56 sm:h-72 md:h-80">
+                <img src="image3.jpg" alt="Game Screenshot 3" class="w-full h-full object-cover hover:scale-105 transition duration-500">
             </div>
-            <div class="flex flex-col gap-4">
-                <div class="rounded-xl overflow-hidden border border-slate-800 h-38">
-                    <img src="image2.jpg" alt="Game Screenshot 1" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+            <div class="grid grid-cols-2 md:grid-cols-1 gap-3 md:gap-4">
+                <div class="rounded-xl overflow-hidden border border-slate-800 h-32 sm:h-36 md:h-38">
+                    <img src="image1.jpg" alt="Game Screenshot 1" class="w-full h-full object-cover hover:scale-105 transition duration-500">
                 </div>
-                <div class="rounded-xl overflow-hidden border border-slate-800 h-38">
-                    <img src="image3.jpg" alt="Game Screenshot 2" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                <div class="rounded-xl overflow-hidden border border-slate-800 h-32 sm:h-36 md:h-38">
+                    <img src="image2.jpg" alt="Game Screenshot 2" class="w-full h-full object-cover hover:scale-105 transition duration-500">
                 </div>
             </div>
         </div>
 
-        <!-- Content Layout: Description & Specs -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- Content Layout: Description & Specs (1 Column on Mobile, 3 Columns on PC) -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
             
-            <!-- Left Side: Game Description -->
+            <!-- Left Side: Game Description & Other Games -->
             <div class="lg:col-span-2 space-y-6">
-                <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6">
-                    <h3 class="text-xl font-bold mb-4 flex items-center space-x-2">
+                <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-5 md:p-6">
+                    <h3 class="text-lg md:text-xl font-bold mb-3 md:mb-4 flex items-center space-x-2">
                         <i class="fa-solid fa-gamepad text-red-500"></i>
                         <span>Game Overview & Description</span>
                     </h3>
-                    <div class="space-y-4 text-slate-300 leading-relaxed text-sm">
+                    <div class="space-y-3.5 text-slate-300 leading-relaxed text-xs md:text-sm">
                         <p>
                             Call of Duty: World at War brings a gritty, intense cooperative multiplayer experience back to your PCs. Battle through the fierce campaigns and survive endless waves of Nazi Zombies alongside your friends.
                         </p>
                         <p>
                             An absolute classic game optimized for smooth co-op and LAN gameplay with friends. Fully tested and configured to run smoothly on both low-end and mid-range PCs without issues.
                         </p>
-                        <p class="text-xs text-slate-400 bg-slate-950 p-3 rounded-lg border border-slate-800/50">
+                        <p class="text-[11px] md:text-xs text-slate-400 bg-slate-950 p-3 rounded-lg border border-slate-800/50">
                             <span class="text-red-400 font-bold">Note:</span> If you encounter any installation errors, feel free to join our official WhatsApp community for direct assistance.
                         </p>
                     </div>
                 </div>
 
                 <!-- Available Games Section -->
-                <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6">
-                    <h3 class="text-lg font-bold mb-4 flex items-center space-x-2">
+                <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-5 md:p-6">
+                    <h3 class="text-base md:text-lg font-bold mb-4 flex items-center space-x-2">
                         <i class="fa-solid fa-layer-group text-emerald-500"></i>
                         <span>Other Available Co-op Games</span>
                     </h3>
@@ -112,8 +112,8 @@
             <div class="space-y-6">
                 
                 <!-- System Requirements Card -->
-                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6">
-                    <h3 class="text-lg font-bold mb-4 flex items-center space-x-2 border-b border-slate-800 pb-3">
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 md:p-6">
+                    <h3 class="text-base md:text-lg font-bold mb-4 flex items-center space-x-2 border-b border-slate-800 pb-3">
                         <i class="fa-solid fa-microchip text-blue-500"></i>
                         <span>System Requirements</span>
                     </h3>
@@ -127,12 +127,12 @@
                 </div>
 
                 <!-- Download Call-to-Action Box -->
-                <div class="bg-gradient-to-br from-red-950/40 to-slate-900 border border-red-900/50 rounded-2xl p-6 text-center shadow-xl">
-                    <h3 class="text-lg font-bold mb-2">Ready to Play?</h3>
-                    <p class="text-xs text-slate-400 mb-6">Click below to download the game setup files.</p>
+                <div class="bg-gradient-to-br from-red-950/40 to-slate-900 border border-red-900/50 rounded-2xl p-5 md:p-6 text-center shadow-xl">
+                    <h3 class="text-base md:text-lg font-bold mb-2">Ready to Play?</h3>
+                    <p class="text-xs text-slate-400 mb-5">Click below to download the game setup files.</p>
                     
                     <!-- Game Download Link eka methat danna -->
-                    <a href="YOUR_GAME_DOWNLOAD_LINK_HERE" target="_blank" class="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3.5 px-4 rounded-xl transition duration-300 flex items-center justify-center space-x-2 shadow-lg shadow-red-600/30">
+                    <a href="YOUR_GAME_DOWNLOAD_LINK_HERE" target="_blank" class="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 px-4 rounded-xl transition duration-300 flex items-center justify-center space-x-2 shadow-lg shadow-red-600/30 text-xs md:text-sm">
                         <i class="fa-solid fa-download"></i>
                         <span>Download Game</span>
                     </a>
@@ -145,7 +145,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t border-slate-900 mt-20 py-8 text-center text-slate-500 text-xs">
+    <footer class="border-t border-slate-900 mt-16 md:mt-20 py-6 md:py-8 text-center text-slate-500 text-xs px-4">
         <p>&copy; 2026 DK Gamers. All rights reserved. Built for the Sri Lankan Co-op Community.</p>
     </footer>
 
